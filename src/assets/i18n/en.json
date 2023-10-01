@@ -1,0 +1,93 @@
+{
+  "Header.cvName": "CV_Luc_Do.pdf",
+
+  "Banner.Pretitle": "Hello! My name is",
+  "Banner.Description": "The Business Analyst, who has worked in the IT industry for <span class='underline'>3 years</span>, is a motivated and detail-oriented professional with the IT industry and its impact on business operations.",
+  "AboutMe.FullName": "Do Tan Luc",
+  "AboutMe.JobTitle": "Business Analyst",
+  "AboutMe.Title": "About me",
+  "AboutMe.Paragraphs": [
+    "As a dedicated and passionate Business Analyst, I commit to the continuous improvement and staying updated on the latest technological advancements helps me identify innovative solutions that drive operational efficiency and enhance business performance. I am highly adaptable and thrive in fast-paced, dynamic environments, where I can utilize my skills to make a tangible impact.",
+    "Overall, I am a results-oriented professional who is dedicated to leveraging my expertise to support the strategic goals and objectives of an organization, while also nurturing a collaborative and positive work environment."
+  ],
+  "AboutMe.Skills":[
+    "Analysis",
+    "Critical and Logical Thinking",
+    "System and Conceptual Thinking",
+    "Problem Solving",
+    "Elicitation",
+    "Stakeholder management and communication",
+    "Azure Boards",
+    "Visio",
+    "DrawIO",
+    "SharePoint",
+    "Word",
+    "Excel",
+    "PowerPoint",
+    "Oracle",
+    "PostgreSQL",
+    "SQL Server"
+  ],
+
+  "Experience.Title": "Experience",
+  "Experience.Jobs": [
+    {
+      "Tab": "bravoSUITE",
+      "Reference": "https://bravosuite.io",
+      "Title": "Orient Software",
+      "Date": "June 2022 - September 2023",
+      "DescriptionTitle": "Description",
+      "Description": "bravoSUITE offers a full cycle of smart HR and talent management solutions for business.",
+      "TeamRoleTitle": "Team Role",
+      "TeamRole": "Business Analyst",
+      "ResponsibilityTitle": "Responsibility",
+      "Responsibility": [
+        "Host and facilitate workshop and the Scrum events.",
+        "Inspect the market and contribute to the creation of the product master plan.",
+        "Collaborate with cross-functional teams to gather and document business needs and translate them into functional specifications.",
+        "Support the Product Owner to conduct regular meetings with the development teams to review progress, provide clarification on requirements, maintain the product roadmap, and ensure successful delivery.",
+        "Work closely with the development team to ensure requirements alignment and successful implementation."
+      ]
+    },
+    {
+      "Tab": "CICAT",
+      "Reference": "",
+      "Title": "BOSCH",
+      "Date": "Sep 2019 - May 2022",
+      "DescriptionTitle": "Description",
+      "Description": "CI-CAT is a GUI desktop application that provides end-users with a handy set of controls that manage domain resources (e-mail, user account, etc ...) by connection to Active Directory Domain Services and Exchange Server.",
+      "TeamRoleTitle": "Team Role",
+      "TeamRole": "Developer",
+      "ResponsibilityTitle": "Responsibility",
+      "Responsibility": [
+        "Implement new features and fix the existing defect.",
+        "Take part in analysing requirements and eliciting the needs of stakeholders through open points.",
+        "Provide remote technical support to customers via e-mail and Q&A meeting sessions.",
+        "Manage and create release details on business documents."
+      ]
+    }
+  ],
+
+  "FeatureProjects.Title": "My projects",
+  "FeatureProjects.Label": "Featured Project",
+
+  "Education.Title":"Education",
+  "Education.Facility":[
+    {
+     "Title":"Ho Chi Minh City University of Foreign Languages and Information Technology.",
+     "Date":"2016 - 2020",
+     "Majority":"Information Technology.",
+     "Minority":"Software engineering."
+    }
+  ],
+
+
+  "Contact.Pretitle": "What’s Next",
+  "Contact.Title": "Get in touch!",
+  "Contact.Content": "I will be happy to receive your contact if you want to talk about new opportunities. Write me, and I will reply as soon as I see your message. Simple one-page design that features a profile letter with basic information about a person.",
+  "Contact.Btn": "Say Hello",
+  "Contact.Linkedln": "https://www.linkedin.com/in/lực-tấn-đỗ-94a231146",
+  "Contact.Github": "https://github.com/dotanluc1301",
+  "Contact.Email": "dotanluc13031@gmail.com",
+  "Contact.CV": "https://lucdo.notion.site/Resume-956465f12b724e3786213f7c3c81f776"
+}

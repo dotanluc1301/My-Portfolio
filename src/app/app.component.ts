@@ -21,10 +21,10 @@ export class AppComponent implements OnInit {
 
    
 
-    this.titleService.setTitle("Loay Elden | Front-end Developer  | Software Engineer");
+    this.titleService.setTitle("Luc Do | Business Analyst");
     this.metaService.addTags([
-      { name: 'keywords', content: 'Frontend , Software Engineer, software, developer' },
-      { name: 'description', content: 'As a software engineer with expertise in Frontend, I have a comprehensive understanding of Frontend web development. My strong foundation in JavaScript allows me to effectively work with front-end technologies such as Angular.' },
+      { name: 'keywords', content: 'Business Analyst and Developer' },
+      { name: 'description', content: 'With the experience developing systems, interfaces, technological solutions to make the web a better place.' },
     ]);
     
     AOS.init();

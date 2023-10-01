@@ -82,6 +82,13 @@
         .company-tab-content{
             color: $Green;
         }
+        .hyperlink{
+            display: inline;
+            color: $Green;
+        }
+        .hyperlink:hover{
+            opacity: 1;
+        }
     }
 
     .job-time{

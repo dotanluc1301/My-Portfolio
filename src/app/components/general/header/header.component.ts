@@ -4,7 +4,7 @@ import {trigger, style, query, transition, stagger, animate } from '@angular/ani
 import { AnalyticsService } from 'src/app/services/analytics/analytics.service';
 import { TranslateService } from '@ngx-translate/core';
 import { FormControl } from '@angular/forms';
-
+import JSonData from './../../../../assets/i18n/en.json'
 import { ThisReceiver } from '@angular/compiler';
 
 
@@ -35,7 +35,7 @@ export class HeaderComponent implements OnInit {
   responsiveMenuVisible: Boolean = false;
   pageYPosition: number;
   languageFormControl: FormControl= new FormControl();
-  cvName: string = "lastCv.pdf";
+  cvName: string = JSonData['Header.cvName'];
 
   constructor(
     private router: Router,

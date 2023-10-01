@@ -1,7 +1,7 @@
 import { Component, OnInit, AfterViewInit } from '@angular/core';
-
 import {trigger, state, style, animate, transition, stagger, query } from "@angular/animations"
 import { AnalyticsService } from 'src/app/services/analytics/analytics.service';
+import JSonData from './../../../../assets/i18n/en.json'
 
 @Component({
   selector: 'app-banner',
@@ -24,8 +24,12 @@ import { AnalyticsService } from 'src/app/services/analytics/analytics.service';
   ]
 })
 export class BannerComponent implements OnInit {
+  pretitle: string = JSonData['Banner.Pretitle'];
+  fullName: string = JSonData['AboutMe.FullName'];
+  jobTitle: string = JSonData['AboutMe.JobTitle'];
+  email: string = JSonData['Contact.Email'];
+  description: string = JSonData['Banner.Description'];
 
-  
 
   constructor(
     public analyticsService: AnalyticsService
