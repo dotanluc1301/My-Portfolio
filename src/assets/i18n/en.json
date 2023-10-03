@@ -42,7 +42,7 @@
       "TeamRole": "Business Analyst",
       "ResponsibilityTitle": "Responsibility:",
       "Responsibility": [
-        "Host and facilitate workshop and the Scrum events.",
+        "Host and facilitate workshops and Scrum events.",
         "Inspect the market and contribute to the creation of the product master plan.",
         "Collaborate with cross-functional teams to gather and document business needs and translate them into functional specifications.",
         "Support the Product Owner to conduct regular meetings with the development teams to review progress, provide clarification on requirements, maintain the product roadmap, and ensure successful delivery.",
@@ -60,7 +60,7 @@
       "TeamRole": "Developer",
       "ResponsibilityTitle": "Responsibility",
       "Responsibility": [
-        "Implement new features and fix the existing defect.",
+        "Implement new features and fix the existing defects.",
         "Take part in analysing requirements and eliciting the needs of stakeholders through open points.",
         "Provide remote technical support to customers via e-mail and Q&A meeting sessions.",
         "Manage and create release details on business documents."
