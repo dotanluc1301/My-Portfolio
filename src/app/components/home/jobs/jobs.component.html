@@ -19,7 +19,10 @@
                         </span>
                     </h4>
                     <h5 class="job-time">{{job.Date}}</h5>
-                    <p *ngFor='let jobDescriptionParagraph of job.Responsibility; let i = index' class="job-description"   >
+                    <h5 class="job-attributes">{{job.DescriptionTitle}} {{job.Description}}</h5>
+                    <h5 class="job-attributes">{{job.TeamRoleTitle}} {{job.TeamRole}}</h5>
+                    <h5 class="job-attributes">{{job.ResponsibilityTitle}}</h5>
+                    <p *ngFor='let jobDescriptionParagraph of job.Responsibility; let i = index' class="job-description">
                       {{jobDescriptionParagraph}}
                     </p>
                     <span></span>
