@@ -1,43 +1,28 @@
 import { Component, OnInit } from '@angular/core';
 import { Router, NavigationEnd } from '@angular/router';
 import { AnalyticsService } from 'src/app/services/analytics/analytics.service';
+import JSonData from './../../../../assets/i18n/en.json';
 
 @Component({
-  selector: 'app-more-proyects',
+  selector: 'app-skills-and-tools',
   templateUrl: './more-proyects.component.html',
   styleUrls: ['./more-proyects.component.scss']
 })
 export class MoreProyectsComponent implements OnInit {
-  Projects = [
-    {
-     
-      Title:'Quizz App',
-      Description:'The Simple Quiz App is a user-friendly and straightforward application designed to offer a fun and interactive quiz experience. the quiz consists of multiple-choice questions, and users can select their answers from the provided options.',
-      Technologies:['Html','Css','javaScript' , 'Jquery'],
-      ghLink:'https://github.com/loayeldin/quizz-app',
-      demoLink:'https://quizzzz-app-js.netlify.app/'
-    },
+  requirementManagementTitle: string = JSonData['AboutMe.Tools.RequirementManagement.Title'];
+  modelingToolsTitle: string = JSonData['AboutMe.Tools.ModelingTools.Title'];
+  officeProductivityTitle: string = JSonData['AboutMe.Tools.OfficeProductivity.Title'];
+  databaseManagementToolsTitle: string = JSonData['AboutMe.Tools.DatabaseManagementTools.Title'];
+  skillsTitle: string = JSonData['AboutMe.Skills.Title'];
+  tools: string = JSonData['AboutMe.Tools.Title'];
 
+  requirementManagement: string[] = JSonData['AboutMe.Tools.RequirementManagement'];
+  modelingTool: string[] = JSonData['AboutMe.Tools.ModelingTools'];
+  officeProductivity: string[] = JSonData['AboutMe.Tools.OfficeProductivity'];
+  databaseManagementTools: string[] = JSonData['AboutMe.Tools.DatabaseManagementTools'];
+  skills: string[] = JSonData['AboutMe.Skills'];
+  
 
-    {
-     
-      Title:'techivo',
-      Description:'techivo site  (personal practicing on design)',
-      Technologies:['Html','Css','Animation','Responsive'],
-      ghLink:'https://github.com/loayeldin/techivo',
-      demoLink:'https://techivo.netlify.app/'
-    },
-
-    {
-     
-      Title:'devolio',
-      Description:'devolio site  (personal practicing on design)',
-      Technologies:['Html','Css','Animation','Responsive'],
-      ghLink:'https://github.com/loayeldin/devolio',
-      demoLink:'https://devoliooo.netlify.app/'
-    },
-
-  ]
   constructor(
     private router: Router,
     public analyticsService: AnalyticsService

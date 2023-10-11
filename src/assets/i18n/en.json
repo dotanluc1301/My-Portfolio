@@ -3,7 +3,7 @@
 
   "Banner.Pretitle": "Hello! My name is",
   "Banner.Description": 
-  "<span class='underline'>An experienced and highly skilled Business Analyst</span> with a strong track record of delivering successful projects and driving business process improvements for the past <span class='underline'>3 years</span>. <span class='underline'>A versatile professional</span> who excels in collaborating with cross-functional teams, including business users, project managers, and development teams, to define project objectives and deliverables. <span class='underline'>A proactive and detail-oriented professional,</span> constantly seeking opportunities to optimize processes, increase efficiency, and achieve business goals.Dedicated to staying updated with the latest IT industry trends and advancements to continuously contribute towards the success of IT projects.",
+  "<span class='underline'>An experienced and highly skilled Business Analyst</span> with a strong track record of delivering successful projects and driving business process improvements for the past <span class='underline'>3 years</span>. <span class='underline'>A versatile professional</span> who excels in collaborating with cross-functional teams, including business users, project managers, and development teams, to define project objectives and deliverables. <span class='underline'>A proactive and detail-oriented professional,</span> constantly seeking opportunities to optimize processes, increase efficiency, and achieve business goals. Dedicated to staying updated with the latest IT industry trends and advancements to continuously contribute towards the success of IT projects.",
   "AboutMe.FullName": "Do Tan Luc",
   "AboutMe.JobTitle": "Business Analyst",
   "AboutMe.Title": "About me",
@@ -11,22 +11,41 @@
     "As a dedicated and passionate Business Analyst, I commit to the continuous improvement and staying updated on the latest technological advancements helps me identify innovative solutions that drive operational efficiency and enhance business performance. I am highly adaptable and thrive in fast-paced, dynamic environments, where I can utilize my skills to make a tangible impact.",
     "Overall, I am a results-oriented professional who is dedicated to leveraging my expertise to support the strategic goals and objectives of an organization, while also nurturing a collaborative and positive work environment."
   ],
-  "AboutMe.Skills":[
-    "Analysis",
-    "Critical and Logical Thinking",
-    "System and Conceptual Thinking",
-    "Problem Solving",
-    "Elicitation",
-    "Stakeholder management and communication",
+  "AboutMe.Tools.RequirementManagement.Title":"Requirement Management Tools",
+  "AboutMe.Tools.RequirementManagement":[
     "Azure Boards",
-    "Visio",
+    "Jira"
+  ],
+  "AboutMe.Tools.ModelingTools.Title":"Modeling Tools",
+  "AboutMe.Tools.ModelingTools":[    
     "DrawIO",
     "Figma",
+    "Visio"
+  ],
+  "AboutMe.Tools.OfficeProductivity.Title":"Office Productivity Tools",
+  "AboutMe.Tools.OfficeProductivity":[
     "SharePoint",
-    "Microsoft Office (Word, Excel, PowerPoint)",
+    "Microsoft Office"
+  ],
+  "AboutMe.Tools.DatabaseManagementTools.Title":"Database Management Tools",
+  "AboutMe.Tools.DatabaseManagementTools":[
+    "SQL Server",
     "Oracle",
-    "PostgreSQL",
-    "SQL Server"
+    "PostgreSQL"
+  ],
+  "AboutMe.Skills.Title":"Skills",
+  "AboutMe.Tools.Title":"Tools",
+  "AboutMe.Skills":[
+    "Analytical Skills",
+    "Critical Thinking",
+    "Logical Thinking",
+    "System Thinking",
+    "Conceptual Thinking",
+    "Time Managment",
+    "Problem Solving",
+    "Elicitation",
+    "Requirement Management",
+    "Stakeholder Engagement"
   ],
 
   "Experience.Title": "Experience",
@@ -44,7 +63,8 @@
       "Responsibility": [
         "Host and facilitate workshops and Scrum events.",
         "Inspect the market and contribute to the creation of the product master plan.",
-        "Collaborate with cross-functional teams to gather and document business needs and translate them into functional specifications.",
+        "Manage features in each application's unique version and serve as the point of contact for customers (Vietnamese, Norwegian, and Japanese) and the product team.",
+        "Gather and document business needs and translate them into functional specifications.",
         "Support the Product Owner to conduct regular meetings with the development teams to review progress, provide clarification on requirements, maintain the product roadmap, and ensure successful delivery.",
         "Work closely with the development team to ensure requirements alignment and successful implementation."
       ]

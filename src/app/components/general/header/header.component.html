@@ -1,53 +1,62 @@
 <nav [@animateMenu] class="navbar main-navbar on-top" [class.nav-shadow]='this.pageYPosition>0'>
-    <div class="container">
-        <a class="navbar-brand text-light" [routerLink]="'inicio'">
-            <img src='assets/images/me/mario.svg' width='100' />
-        </a>
-        <ul ngbNav #nav="ngbNav" class="menu-ul">
-            <li ngbNavItem (click)='analyticsService.sendAnalyticEvent("click_about", "menu", "click")'>
-                <a ngbNavLink (click)='scroll("about")'><span class='nav-number'>01. </span> <span class="underline nav-text"> About me</span></a>
-                <ng-template ngbNavContent>First content</ng-template>
-            </li>
-            <li ngbNavItem (click)='analyticsService.sendAnalyticEvent("click_experience", "menu", "click")'>
-                <a ngbNavLink (click)='scroll("jobs")'><span class='nav-number'>02. </span> <span class="underline nav-text"> Experience</span></a>
-                <ng-template ngbNavContent>Second content</ng-template>
-            </li>
-            <li ngbNavItem (click)='analyticsService.sendAnalyticEvent("click_contact", "menu", "click")'>
-                <a ngbNavLink (click)='scroll("contact")'><span class='nav-number'>03. </span> <span class="underline nav-text">Contact</span></a>
-                <ng-template ngbNavContent>Second content</ng-template>
-            </li>
-            <li ngbNavItem>
-                <a (click)="downloadCV()" class="main-btn cv-btn" ngbNavLink>My CV</a>
-            </li>
-        </ul>
-        <div class="menu-wrapper">
-            <div [class.animate]='responsiveMenuVisible' (click)='responsiveMenuVisible = !responsiveMenuVisible' class="hamburger-menu"></div>
-        </div>
-        <div class="menu-responsive" [ngStyle]="{'pointer-events': !responsiveMenuVisible ? 'none' : '' }">
-            <aside [class.aside-show]='responsiveMenuVisible' [class.nav-shadow]='this.pageYPosition>0' class="on-top">
-                <nav>
-                    <ol>
-											<li>
-													<a (click)='scroll("about")'>
-															<span>01. </span> About me
-													</a>
-											</li>
-											<li >
-													<a (click)='scroll("jobs")'>
-															<span>02. </span> Experience
-													</a>
-											</li>
-                      <li >
-                        <a (click)='scroll("proyects")'>
-                            <span>03. </span> Contact
-                        </a>
-                      </li>
-                      <li>
-                          <a (click)="downloadCV()" class="main-btn cv-btn">My CV</a>
-                      </li>                   
-                    </ol>
-                </nav>
-            </aside>
-        </div>
+	<div class="container">
+		<a class="navbar-brand text-light" [routerLink]="'inicio'">
+			<img src='assets/images/me/mario.svg' width='100' />
+		</a>
+		<ul ngbNav #nav="ngbNav" class="menu-ul">
+			<li ngbNavItem (click)='analyticsService.sendAnalyticEvent("click_about", "menu", "click")'>
+				<a ngbNavLink (click)='scroll("about")'><span class='nav-number'>01. </span> <span class="underline nav-text"> About me</span></a>
+				<ng-template ngbNavContent>First content</ng-template>
+			</li>
+			<li ngbNavItem (click)='analyticsService.sendAnalyticEvent("click_experience", "menu", "click")'>
+				<a ngbNavLink (click)='scroll("jobs")'><span class='nav-number'>02. </span> <span class="underline nav-text"> Experience</span></a>
+				<ng-template ngbNavContent>Second content</ng-template>
+			</li>
+			<li ngbNavItem (click)='analyticsService.sendAnalyticEvent("click_contact", "menu", "click")'>
+				<a ngbNavLink (click)='scroll("skillsAndTools")'><span class='nav-number'>03. </span> <span class="underline nav-text">Skills and Tools</span></a>
+				<ng-template ngbNavContent>Second content</ng-template>
+			</li>
+			<li ngbNavItem (click)='analyticsService.sendAnalyticEvent("click_contact", "menu", "click")'>
+				<a ngbNavLink (click)='scroll("contact")'><span class='nav-number'>04. </span> <span class="underline nav-text">Contact</span></a>
+				<ng-template ngbNavContent>Second content</ng-template>
+			</li>
+			<li ngbNavItem>
+				<a (click)="downloadCV()" class="main-btn cv-btn" ngbNavLink>My CV</a>
+			</li>
+		</ul>
+		<div class="menu-wrapper">
+				<div [class.animate]='responsiveMenuVisible' (click)='responsiveMenuVisible = !responsiveMenuVisible' class="hamburger-menu"></div>
+		</div>
+			<div class="menu-responsive" [ngStyle]="{'pointer-events': !responsiveMenuVisible ? 'none' : '' }">
+				<aside [class.aside-show]='responsiveMenuVisible' [class.nav-shadow]='this.pageYPosition>0' class="on-top">
+					<nav>
+						<ol>
+							<li>
+								<a (click)='scroll("about")'>
+									<span>01. </span> About me
+								</a>
+							</li>
+							<li >
+								<a (click)='scroll("jobs")'>
+									<span>02. </span> Experience
+								</a>
+							</li>
+							<li >
+								<a (click)='scroll("skillsAndTools")'>
+										<span>03. </span> Skills and Tools
+								</a>
+							</li>
+							<li >
+								<a (click)='scroll("proyects")'>
+										<span>04. </span> Contact
+								</a>
+							</li>
+							<li>
+								<a (click)="downloadCV()" class="main-btn cv-btn">My CV</a>
+							</li>                   
+						</ol>
+					</nav>
+				</aside>
+			</div>
     </div>
 </nav>
