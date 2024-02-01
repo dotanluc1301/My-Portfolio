@@ -85,6 +85,39 @@
 .img-feature-proyect-container {
     display:  none;
 }
+.cert-container{
+    display: flex;
+
+    .cert-card{
+        max-width: 300px;
+        color: $LightNavy; 
+    }
+
+    .cert-image{
+        background-size: cover;
+        width: 40%;
+        margin: auto;
+        text-align: center;
+        display: block;
+    }
+
+    .cert-header{
+        text-align: center;
+        margin-left: 5px;
+        color: $Slate;
+
+        .cert-title{
+            display: block;
+            font-size: large;
+        }
+
+        .cert-sub-title{
+            display: block;
+            font-size: small;
+        }
+    }
+}
+
 
 @media (min-width: 768px) and (max-width: 1300px) {
     .owl-carousel-o{

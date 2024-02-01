@@ -1,6 +1,7 @@
 import { Component, ElementRef, OnInit, ViewChild } from '@angular/core';
 import { OwlOptions } from 'ngx-owl-carousel-o';
 import { AnalyticsService } from 'src/app/services/analytics/analytics.service';
+import JSonData from './../../../../assets/i18n/en.json';
 
 @Component({
   selector: 'app-proyects',
@@ -77,6 +78,9 @@ export class ProyectsComponent implements OnInit {
 
 
   ]
+  title: string = JSonData['Certs.Title'];
+  certs: any[] = JSonData['Certs.Repository'];
+
   customOptions: OwlOptions = {
     loop: true,
     mouseDrag: true,

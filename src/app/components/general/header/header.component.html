@@ -12,13 +12,17 @@
 				<a ngbNavLink (click)='scroll("jobs")'><span class='nav-number'>02. </span> <span class="underline nav-text"> Experience</span></a>
 				<ng-template ngbNavContent>Second content</ng-template>
 			</li>
-			<li ngbNavItem (click)='analyticsService.sendAnalyticEvent("click_contact", "menu", "click")'>
+			<li ngbNavItem (click)='analyticsService.sendAnalyticEvent("click_skillsAndTools", "menu", "click")'>
 				<a ngbNavLink (click)='scroll("skillsAndTools")'><span class='nav-number'>03. </span> <span class="underline nav-text">Skills and Tools</span></a>
-				<ng-template ngbNavContent>Second content</ng-template>
+				<ng-template ngbNavContent>Third content</ng-template>
+			</li>
+			<li ngbNavItem (click)='analyticsService.sendAnalyticEvent("click_certificates", "menu", "click")'>
+				<a ngbNavLink (click)='scroll("certificates")'><span class='nav-number'>04. </span> <span class="underline nav-text">Certificates</span></a>
+				<ng-template ngbNavContent>Fourth content</ng-template>
 			</li>
 			<li ngbNavItem (click)='analyticsService.sendAnalyticEvent("click_contact", "menu", "click")'>
-				<a ngbNavLink (click)='scroll("contact")'><span class='nav-number'>04. </span> <span class="underline nav-text">Contact</span></a>
-				<ng-template ngbNavContent>Second content</ng-template>
+				<a ngbNavLink (click)='scroll("contact")'><span class='nav-number'>05. </span> <span class="underline nav-text">Contact</span></a>
+				<ng-template ngbNavContent>Fifth content</ng-template>
 			</li>
 			<li ngbNavItem>
 				<a (click)="downloadCV()" class="main-btn cv-btn" ngbNavLink>My CV</a>
@@ -47,8 +51,13 @@
 								</a>
 							</li>
 							<li >
-								<a (click)='scroll("proyects")'>
-										<span>04. </span> Contact
+								<a (click)='scroll("certificates")'>
+										<span>04. </span> Certificates
+								</a>
+							</li>
+							<li >
+								<a (click)='scroll("contact")'>
+										<span>05. </span> Contact
 								</a>
 							</li>
 							<li>

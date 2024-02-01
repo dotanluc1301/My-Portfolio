@@ -1,13 +1,13 @@
-<section class="section proyects" id='proyects'>
+<section class="section proyects" id='certificates'>
     <div class="container">
         <div class="section-box">
             <div data-aos="fade-up" data-aos-duration="1000">
                 <h3 class="section-title">
-                    <span class='n-section-title'>03.</span> MyProjects 
+                    <span class='n-section-title'>04.</span> {{title}} 
                 </h3>
             </div>
 
-            <div *ngFor='let project of Projects ; let i = index' class="d-flex proyect-container" data-aos="fade-up" data-aos-duration="1000">
+            <!--<div *ngFor='let project of Projects ; let i = index' class="d-flex proyect-container" data-aos="fade-up" data-aos-duration="1000">
 
                 <owl-carousel-o class='owl-carousel-o' [options]="customOptions" *ngIf="i%2==0">
                     <ng-container *ngFor="let img of project.imgs">
@@ -69,7 +69,19 @@
                         </div>
                     </div>
                 </div>
+            </div>-->
+            
+            <div class="cert-container">
+                <mat-card *ngFor='let cert of certs' class= "cert-card" data-aos="fade-up" data-aos-duration="1000">
+                    <img mat-card-image src="{{cert.Image}}" class="cert-image" alt="The photo of certificate">
+                    <mat-card-header class="cert-header">
+                        <div mat-card-avatar class="cert-image"></div>
+                        <mat-card-title class="cert-title">{{cert.Title}}</mat-card-title>
+                        <mat-card-subtitle class="cert-sub-title">Issued by {{cert.Organization}} on {{cert.Issue}}</mat-card-subtitle>
+                    </mat-card-header>                   
+                 </mat-card>
             </div>
+            
             <div>
             </div>
         </div>

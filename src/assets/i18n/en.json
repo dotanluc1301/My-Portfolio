@@ -1,5 +1,5 @@
 {
-  "Header.cvName": "CV_Luc_Do.pdf",
+  "Header.cvName": "CV_Luc Do_Business Analyst.pdf",
 
   "Banner.Pretitle": "Hello! My name is",
   "Banner.Description": 
@@ -39,13 +39,14 @@
     "Analytical Skills",
     "Critical Thinking",
     "Logical Thinking",
-    "System Thinking",
+    "Systems Thinking",
     "Conceptual Thinking",
     "Time Managment",
     "Problem Solving",
     "Elicitation",
     "Requirement Management",
-    "Stakeholder Engagement"
+    "Stakeholder Engagement",
+    "Backlog Management"
   ],
 
   "Experience.Title": "Experience",
@@ -101,6 +102,23 @@
     }
   ],
 
+  "Certs.Title":"Certificates",
+  "Certs.Repository":[
+    {
+      "Title": "Professional Scrum Product Owner I",
+      "Issue": "01/2024",
+      "Organization":"Scrum.org",
+      "Image": "../../../../assets/images/certificates/Professional-Scrum-Product-Owner-I.png",
+      "Url":"https://www.credly.com/badges/fcebc0b7-8164-468a-a400-4eec4fc36385"
+    },
+    {
+      "Title": "Professional Scrum Master I",
+      "Issue": "01/2024",
+      "Organization":"Scrum.org",
+      "Image": "../../../../assets/images/certificates/Professional-Scrum-Master-I.png",
+      "Url":"https://www.credly.com/badges/323cee09-5c9b-4254-8dc0-a9f9beea87ab"
+    }
+  ],
 
   "Contact.Pretitle": "What’s Next",
   "Contact.Title": "Get in touch!",
