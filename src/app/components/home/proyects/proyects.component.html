@@ -73,7 +73,9 @@
             
             <div class="cert-container">
                 <mat-card *ngFor='let cert of certs' class= "cert-card" data-aos="fade-up" data-aos-duration="1000">
-                    <img mat-card-image src="{{cert.Image}}" class="cert-image" alt="The photo of certificate">
+                    <a href="{{cert.Url}}" target="_blank">
+                        <img mat-card-image src="{{cert.Image}}" class="cert-image" alt="The photo of certificate">
+                    </a>
                     <mat-card-header class="cert-header">
                         <div mat-card-avatar class="cert-image"></div>
                         <mat-card-title class="cert-title">{{cert.Title}}</mat-card-title>
