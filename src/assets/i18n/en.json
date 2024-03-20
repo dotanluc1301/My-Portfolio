@@ -105,6 +105,13 @@
   "Certs.Title":"Certificates",
   "Certs.Repository":[
     {
+      "Title": "Professional Scrum Product Master II",
+      "Issue": "03/2024",
+      "Organization":"Scrum.org",
+      "Image": "../../../../assets/images/certificates/Professional-Scrum-Master-II.png",
+      "Url":"https://www.credly.com/badges/386dcf93-800f-4213-836a-2d6bfeb96d73"
+    },
+    {
       "Title": "Professional Scrum Product Owner I",
       "Issue": "01/2024",
       "Organization":"Scrum.org",

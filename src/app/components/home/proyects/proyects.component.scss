@@ -87,10 +87,12 @@
 }
 .cert-container{
     display: flex;
+    flex-wrap: wrap;
 
     .cert-card{
         max-width: 300px;
-        color: $LightNavy; 
+        color: $LightNavy;
+        margin-top: 25px;
     }
 
     .cert-image{

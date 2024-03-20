@@ -97,12 +97,10 @@ export class ProyectsComponent implements OnInit {
 
   constructor(
     public analyticsService: AnalyticsService
-  ) { }
+  ) { 
+  }
 
   ngOnInit(): void {
-
-
-
   }
 
 debug(){
