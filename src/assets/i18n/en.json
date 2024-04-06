@@ -105,6 +105,13 @@
   "Certs.Title":"Certificates",
   "Certs.Repository":[
     {
+      "Title": "EF SET English Certificate",
+      "Issue": "04/2024",
+      "Organization":"EF Standard English Test (EF SET)",
+      "Image": "../../../../assets/images/certificates/EF-SET-Certificate.png",
+      "Url":"https://cert.efset.org/mPQjYr"
+    },
+    {
       "Title": "Professional Scrum Product Master II",
       "Issue": "03/2024",
       "Organization":"Scrum.org",
