@@ -3,7 +3,7 @@
 
   "Banner.Pretitle": "Hello! My name is",
   "Banner.Description": 
-  "<span class='underline'>An experienced and highly skilled Business Analyst</span> with a strong track record of delivering successful projects and driving business process improvements for the past <span class='underline'>3 years</span>. <span class='underline'>A versatile professional</span> who excels in collaborating with cross-functional teams, including business users, project managers, and development teams, to define project objectives and deliverables. <span class='underline'>A proactive and detail-oriented professional,</span> constantly seeking opportunities to optimize processes, increase efficiency, and achieve business goals. Dedicated to staying updated with the latest IT industry trends and advancements to continuously contribute towards the success of IT projects.",
+  "<span class='underline'>An experienced and highly skilled Business Analyst</span> with a strong track record of delivering successful projects and driving business process improvements for the past <span class='underline'>3 years</span>. <span class='underline'>A versatile professional</span> who excels in collaborating with cross-functional teams, including business users, project managers, and development teams, to define project objectives and deliverables. <span class='underline'>A proactive and detail-oriented professional,</span> constantly seeking opportunities to optimize processes, increase efficiency, and achieve business goals.",
   "AboutMe.FullName": "Do Tan Luc",
   "AboutMe.JobTitle": "Business Analyst",
   "AboutMe.Title": "About me",
@@ -57,17 +57,19 @@
       "Title": "Orient Software",
       "Date": "June 2022 - September 2023",
       "DescriptionTitle": "Description:",
-      "Description": "bravoSUITE strives to be the all-encompassing ERP system that provides a full cycle of intelligent HR and personnel management solutions for the company.",
+      "Description": "bravoSUITE strives to be the all-encompassing ERP system that provides a full cycle of intelligent HR and personnel management solutions for the enterprise.",
       "TeamRoleTitle": "Team Role:",
       "TeamRole": "Business Analyst",
       "ResponsibilityTitle": "Responsibility:",
       "Responsibility": [
-        "Host and facilitate workshops and Scrum events.",
-        "Inspect the market and contribute to the creation of the product master plan.",
-        "Manage features in each application's unique version and serve as the point of contact for customers (Vietnamese, Norwegian, and Japanese) and the product team.",
-        "Gather and document business needs and translate them into functional specifications.",
-        "Support the Product Owner to conduct regular meetings with the development teams to review progress, provide clarification on requirements, maintain the product roadmap, and ensure successful delivery.",
-        "Work closely with the development team to ensure requirements alignment and successful implementation."
+        "Collect and research the business needs by the demand of the product orientation and feedback.",
+        "Devise change strategies and recommend the optimal solutions.",
+        "Inspect and conduct the gap analysis against the competitors in the market.",
+        "Compose the models (by using UML) and requirement for requirement communication.",
+        "Work closely with the development team to ensure requirements alignment and successful implementation.",
+        "Present the demo with the relevant stakeholders and provide aid in training after release.",
+        "Measure the release performance metrics and act accordingly with the result.",
+        "Take Scrum delegation role in hosting events, facilitating communication, and crafting the Product roadmap with the technical base."
       ]
     },
     {
