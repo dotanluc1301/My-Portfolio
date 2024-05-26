@@ -107,6 +107,13 @@
   "Certs.Title":"Certificates",
   "Certs.Repository":[
     {
+      "Title": "Professional Scrum Product Owner II",
+      "Issue": "05/2024",
+      "Organization":"Scrum.org",
+      "Image": "../../../../assets/images/certificates/Professional-Scrum-Product-Owner-II.png",
+      "Url":"https://www.credly.com/badges/0640763f-8bf0-4adf-a8e8-ce5f64705b89"
+    },
+    {
       "Title": "EF SET English Certificate",
       "Issue": "04/2024",
       "Organization":"EF Standard English Test (EF SET)",
