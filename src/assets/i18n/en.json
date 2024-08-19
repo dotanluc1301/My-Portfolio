@@ -52,6 +52,24 @@
   "Experience.Title": "Experience",
   "Experience.Jobs": [
     {
+      "Tab": "DHL",
+      "Reference": "",
+      "Title": "DHL",
+      "Date": "March 2024 - Present",
+      "DescriptionTitle": "",
+      "Description": "",
+      "TeamRoleTitle": "Team Role:",
+      "TeamRole": "Business Analyst",
+      "ResponsibilityTitle": "Responsibility:",
+      "Responsibility": [
+        "Build and maintain effective relationships with clients and stakeholders.",
+        "Facilitate conversations with stakeholders to identify needs and create requirements.",
+        "Ensure client satisfaction and gather feedback for continuous improvement.",
+        "Monitor and measure the feature performance.",
+        "Support UAT with test cases and data."
+      ]
+    },
+    {
       "Tab": "bravoSUITE",
       "Reference": "https://bravosuite.io",
       "Title": "Orient Software",
@@ -59,7 +77,7 @@
       "DescriptionTitle": "Description:",
       "Description": "bravoSUITE strives to be the all-encompassing ERP system that provides a full cycle of intelligent HR and personnel management solutions for the enterprise.",
       "TeamRoleTitle": "Team Role:",
-      "TeamRole": "Business Analyst",
+      "TeamRole": "Business Analyst | Scrum Master",
       "ResponsibilityTitle": "Responsibility:",
       "Responsibility": [
         "Collect and research the business needs by the demand of the product orientation and feedback.",
