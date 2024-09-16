@@ -41,12 +41,12 @@
     "Logical Thinking",
     "Systems Thinking",
     "Conceptual Thinking",
-    "Time Managment",
+    "Time Management",
     "Problem Solving",
     "Elicitation",
     "Requirement Management",
     "Stakeholder Engagement",
-    "Backlog Management"
+    "Product Backlog Management"
   ],
 
   "Experience.Title": "Experience",
@@ -125,6 +125,38 @@
   "Certs.Title":"Certificates",
   "Certs.Repository":[
     {
+      "Title": "Scaled Professional Scrum",
+      "Issue": "09/2024",
+      "Organization":"Scrum.org",
+      "Image": "../../../../assets/images/certificates/Scaled-Professional-Scrum.png",
+      "Url":"https://www.credly.com/badges/0640763f-8bf0-4adf-a8e8-ce5f64705b89"
+    },
+    {
+      "Title": "C# (Basic)",
+      "Issue": "09/2024",
+      "Organization":"www.hackerrank.com",
+      "Image": "../../../../assets/images/certificates/CSharp-(Basic).png",
+      "Url":"https://www.hackerrank.com/certificates/a5f8063755cb"
+    },{
+      "Title": "Problem Solving (Basic)",
+      "Issue": "09/2024",
+      "Organization":"www.hackerrank.com",
+      "Image": "../../../../assets/images/certificates/Problem-Solving-(Basic).png",
+      "Url":"https://www.hackerrank.com/certificates/bf2bb1daa7a3"
+    },{
+      "Title": "SQL (Intermediate)",
+      "Issue": "09/2024",
+      "Organization":"www.hackerrank.com",
+      "Image": "../../../../assets/images/certificates/SQL-(Intermediate).png",
+      "Url":"https://www.hackerrank.com/certificates/074e1150240a"
+    },{
+      "Title": "SQL (Basic)",
+      "Issue": "09/2024",
+      "Organization":"www.hackerrank.com",
+      "Image": "../../../../assets/images/certificates/SQL-(Basic).png",
+      "Url":"https://www.hackerrank.com/certificates/e273cca5658c"
+    },
+    {
       "Title": "Professional Scrum Product Owner II",
       "Issue": "05/2024",
       "Organization":"Scrum.org",
@@ -139,7 +171,7 @@
       "Url":"https://cert.efset.org/mPQjYr"
     },
     {
-      "Title": "Professional Scrum Product Master II",
+      "Title": "Professional Scrum Master II",
       "Issue": "03/2024",
       "Organization":"Scrum.org",
       "Image": "../../../../assets/images/certificates/Professional-Scrum-Master-II.png",
